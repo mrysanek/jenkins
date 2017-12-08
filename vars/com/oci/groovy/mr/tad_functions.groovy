@@ -1,4 +1,4 @@
-def getItemFromBlueprint(String whichItem, String tadJson) {
+def getItemFromTadJson(String whichItem, String tadJson) {
     assert whichItem != "" : "This function requires an item name to parse from json"
     assert tadJson != "" : "This function requires a json string"
 
