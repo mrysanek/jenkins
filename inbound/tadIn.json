@@ -1,0 +1,28 @@
+{
+    "blueprint": {
+      "MC.VM.Environment": "0",
+      "MC.VM.Datacenter": "stl",
+      "MC.VM.Type": "l",
+      "MC.VM.Application": "uts",
+      "MC.VM.BusinessOwnerGroup": "uts",
+      "MC.VM.Requester": "IaaS",
+      "cpu": "4",
+      "memory": "4096",
+      "description": "Um.  Yeah.  This VM is to solve world hunger.",
+      "_archiveDays": "10",
+      "_leaseDays": "13",
+      "_number_of_instances": "2",
+      "VirtualMachine.Network0.ProfileName": "DTL23",
+      "VirtualMachine.Network1.ProfileName": "TSM100",
+      "Hostname": "",
+      "VirtualMachine.Network0.Name": "",
+      "VirtualMachine.Network0.Address": "",
+      "VirtualMachine.Network0.SubnetMask": "",
+      "VirtualMachine.Network0.Gateway": "",
+      "VirtualMachine.Network1.Address": "",
+      "VirtualMachine.Network1.SubnetMask": "",
+      "VirtualMachine.Network0.PrimaryDns": "",
+      "VirtualMachine.Network0.DnsSuffix": "mastercard.int"
+    }
+}
+ 

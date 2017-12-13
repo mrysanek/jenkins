@@ -1,0 +1,16 @@
+{"key":"%%VRA_BLUEPRINT_NAME%%","value":{"type":"complex","values":{"entries":[
+{"key":"cpu","value":{"type":"integer","value":"%%CPU_VALUE%%"}},
+{"key":"memory","value":{"type":"integer","value":"%%MEMORY%%"}},
+{"key":"description","value":{"type":"string","value":"%%DESCRIPTION%%"}},
+{"key":"_archiveDays","value":{"type":"integer","value":"%%ARCHIVE%%"}},
+{"key":"_leaseDays","value":{"type":"integer","value":"%%LEASE%%"}},
+{"key":"_number_of_instances","value":{"type":"string","value":"%%INSTANCE_COUNT%%"}},
+{"key":"VirtualMachine.Network0.NetworkProfileName","value":{"type":"string","value":"%%NET_0_PROFILENAME%%"}},
+{"key":"VirtualMachine.Network1.NetworkProfileName","value":{"type":"string","value":"%%NET_1_PROFILENAME%%"}},
+{"key":"MC.VM.OS.Name","value":{"type":"string","value":"%%OS_NAME%%"}},
+{"key":"MC.VM.Datacenter","value":{"type":"string","value":"%%DATACENTER%%"}},
+{"key":"MC.VM.Environment","value":{"type":"string","value":"%%ENVIRONMENT%%"}},
+{"key":"MC.VM.Application","value":{"type":"string","value":"%%APPLICATION%%"}},
+{"key":"MC.VM.BusinessOwnerGroup","value":{"type":"string","value":"%%OWNER_GROUP%%"}},
+{"key":"MC.VM.Requester","value":{"type":"string","value":"%%REQUESTER%%"}}
+]}}}
