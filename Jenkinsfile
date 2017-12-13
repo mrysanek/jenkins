@@ -8,7 +8,7 @@ pipeline {
         stage('Reading TAD') {
             steps {
                 script {
-                    tadText = readfile 'utils/helpers-tad.groovy'
+                    tadText = readFile 'utils/helpers-tad.groovy'
                     println "tadText=" + tadText
                 }
             }
