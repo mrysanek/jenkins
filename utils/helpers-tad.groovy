@@ -29,5 +29,5 @@ def getItemFromTadJson(String friendlyName, String tadJson) {
     return tadObject.blueprint[jsonObjectPath]
 }
 
-return This
+return this
 
