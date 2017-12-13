@@ -1,4 +1,4 @@
-private string _getJsonObjectPathFromString (String whichItem) {
+def _getJsonObjectPathFromString (String whichItem) {
 
     if (whichItem.toLower() == "environment")       return "MC.VM.Environment";
     if (whichItem.toLower() == "datacenter")        return "MC.VM.Datacenter";
@@ -18,7 +18,7 @@ private string _getJsonObjectPathFromString (String whichItem) {
        
 }
 
-public static string getItemFromTadJson(String friendlyName, String tadJson) {
+def getItemFromTadJson(String friendlyName, String tadJson) {
     assert whichItem != "" : "This function requires an item name to parse from json"
     assert tadJson != "" : "This function requires a json string"
     def jsonObjectPath = _getJsonObjectPathFromString ( friendlyName )
