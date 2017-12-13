@@ -1,18 +1,17 @@
-#!groovy
-
 pipeline {
-    agent none
-    parameters {
+    agent any
+    environment {
         tadutils = load ('utils/helpers-tad.groovy')
     }
 
     stages {
         stage('Reading TAD') {
             steps {
-                tadText = readfile 'utils/helpers-tad.groovy'
-                println "tadText=" + tadText
+                script {
+                    tadText = readfile 'utils/helpers-tad.groovy'
+                    println "tadText=" + tadText
+                }
             }
         }
     }
 }
-
